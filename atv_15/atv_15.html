@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <strong><font face="arial" size="6">Aula Avançada: Tabelas em HTML</font></strong>
+    <br/>
+    <p></p>
+    <strong><font face="arial" size="5">1. Estrutura completa de uma tabela</font></strong>
+    <table align="center" border="1" bordercolor="black" cellspacing="0" cellpadding="5" width="30%">
+        <tr bgcolor="lightgray">
+            <th>Produto</th>
+            <th>Categoria</th>
+            <th>Preço</th>
+            <th>Estoque</th>
+        </tr>
+        <tr>
+            <th>Notebook Gamer</th>
+            <th>Informática</th>
+            <th>R$ 5.200,00</th>
+            <th>15 unidades</th>
+        </tr>
+        <tr>
+            <th>Smartphone X</th>
+            <th>Telefonia</th>
+            <th>R$ 3.100,00</th>
+            <th>30 unidades</th>
+        </tr>
+        <tr>
+            <td colspan="3"><strong>Total de Produtos</strong></td>
+            <th>45 unidades</th>
+        </tr>
+    </table>
+    <p></p>
+    <strong><font face="arial" size="5">2. Mesclando células com rowspan e colspan</font></strong>
+    <p></p>
+    <table align="center" border="1" bordercolor="black" cellspacing="0" cellpadding="5" width="30%">
+        <tr>
+            <th rowspan="2">Produtos</th>
+            <th colspan="2">Detalhes</th>
+        </tr>
+        <tr>
+            <th>Preço</th>
+            <th>Estoque</th>
+        </tr>
+        <tr>
+            <th>Impressora</th>
+            <th>R$ 750,00</th>
+            <th>22 unidades</th>
+        </tr>
+    </table>
+    <p></p>
+    <strong><font face="arial" size="5">3. Agrupamento de cabeçalhos com scope</font></strong>
+    <p></p>
+    <table align="center" border="1" bordercolor="black" cellspacing="0" cellpadding="5" width="30%">
+        <tr bgcolor="lightgray">
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Estoque</th>
+        </tr>
+        <tr>
+            <th>Mouse</th>
+            <th>50</th>
+            <th>100</th>
+        </tr>
+        <tr>
+            <th>Teclado</th>
+            <th>80</th>
+            <th>90</th>
+        </tr>
+    </table><p></p>
+    <strong><font face="arial" size="5">4. Tabelas aninhadas</font></strong>
+    <p></p>
+    <table align="center" border="1" bordercolor="black" cellspacing="0" cellpadding="5" width="30%">
+        <tr>
+            <th>Departamento</th>
+            <th>Equipe</th>
+        </tr>
+        <tr>
+            <th>TI</th>
+            <th>
+                <table border="1" bordercolor="black" cellspacing="0" width="100%">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Cargo</th>
+                    </tr>
+                    <tr>
+                        <th>João</th>
+                        <th>Desenvolvedor</th>
+                    </tr>
+                    <tr>
+                        <th>Ana</th>
+                        <th>Analista</th>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
