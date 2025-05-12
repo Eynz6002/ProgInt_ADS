@@ -1,0 +1,18 @@
+body{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: maroon;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: maroon;
+    font-size: 12px;
+}
+hr{
+    color: maroon;
+}
