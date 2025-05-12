@@ -1,0 +1,46 @@
+body {
+    margin: 10% 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#direita {
+    text-align: right;
+}
+#centro {
+    text-align: center;
+}
+.G {
+    font-size: 120px;
+    color: blue;
+}
+.o {
+    font-size: 120px;
+    color: red;
+}
+.o2 {
+    font-size: 120px;
+    color: yellow;
+}
+.g {
+    font-size: 120px;
+    color: blue;
+}
+.l {
+    font-size: 120px;
+    color: green;
+}
+.e {
+    font-size: 120px;
+    color: red;
+}
+input {
+    border-radius: 40px;
+    width: 500px;
+    height: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+}
+button {
+    height: 30px;
+    border-radius: 0px;
+    border: none;
+    background-color: lightgray;
+}
