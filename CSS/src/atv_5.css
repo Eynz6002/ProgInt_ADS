@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: blue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+header {
+    font-size: 24px;
+}
+.quadrado {
+    list-style-type: square;
+}
+.circulo {
+    list-style-type: circle;
+}
+.img_ul {
+    list-style-image: url("../img/atv_5/seta_azul.gif");
+}
+.ol-roman {
+    list-style-type: lower-roman;
+}
+.ol-abc {
+    list-style-type: lower-alpha;
+}
