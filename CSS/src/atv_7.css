@@ -1,0 +1,36 @@
+body {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-image: url(../img/atv_7/fundo_neo.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+    background-color: black;
+    background-size: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    font-size: 35px;
+    height: 35px;
+    width: 90%;
+    background-image: url(../img/atv_7/fundo_matrix.jpg);
+    color: white;
+}
+footer {
+    font-size: 35px;
+    height: 35px;
+    width: 90%;
+    text-align: right;
+    background-image: url(../img/atv_7/fundo_matrix.jpg);
+    color: white;
+}
+#text {
+    font-size: 22px;
+    color: lightgreen;
+}
+#neo {
+    position: left;
+}
+#neo_end {
+    position: right;
+}
