@@ -1,8 +1,5 @@
 body {
-    margin-right: 10%;
-    margin-left: 15%;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin: 5% 10% 10% 15%;
     background-image: url(../img/atv_7/fundo_neo.jpg);
     background-repeat: repeat-y;
     background-position: right;
@@ -11,14 +8,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    font-size: 35px;
+    font-size: 25px;
     height: 35px;
     width: 90%;
     background-image: url(../img/atv_7/fundo_matrix.jpg);
     color: white;
 }
 footer {
-    font-size: 35px;
+    font-size: 25px;
     height: 35px;
     width: 90%;
     text-align: right;
@@ -26,12 +23,11 @@ footer {
     color: white;
 }
 #text {
-    font-size: 18px;
+    font-size: 14px;
     color: lightgreen;
 }
-#neo {
-    position: left;
-}
-#neo_end {
-    position: right;
+#space_img {
+    height: 8%;
+    width: 8%;
+    margin: 30px 165px 30px 0px;
 }
