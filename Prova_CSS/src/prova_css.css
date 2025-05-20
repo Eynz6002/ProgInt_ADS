@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0% 10% 1% 10%;
+}
+#logo {
+    width: 20%;
+    margin-left: 40%;
+}
+header {
+    background-color: white;
+    height: 35px;
+    align-content: center;
+}
+span {
+    margin: 20px;
+}
+main {
+    margin-top: 20px;
+}
+.gallery{
+    height: 365px;
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: white;
+}
+#big_img {
+    margin: 0.5% 1% 1% 7.8%;
+}
+.cards {
+    margin-top: 10px;
+    justify-content: space-around;
+    display: flex;
+    gap: 10px;
+    background-color: none;
+}
+#img_min {
+    width: 150px
+}
+.card {
+    width: 150px;
+    height: 250px;
+    background-color: aliceblue;
+    padding: 5px;
+}
+footer {
+    margin-top: 10px;
+}
