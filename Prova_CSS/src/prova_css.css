@@ -21,15 +21,17 @@ main {
 .gallery{
     height: 365px;
     width: 100%;
-    margin-bottom: 5px;
     background-color: white;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
 }
 #big_img {
-    margin: 0.5% 1% 1% 7.8%;
+
 }
 .cards {
     margin-top: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     gap: 10px;
     background-color: none;
@@ -44,5 +46,10 @@ main {
     padding: 5px;
 }
 footer {
+    background-color: white;
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
 }
