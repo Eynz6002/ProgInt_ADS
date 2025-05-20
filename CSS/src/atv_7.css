@@ -23,11 +23,11 @@ footer {
     color: white;
 }
 #text {
-    font-size: 14px;
+    font-size: 18px;
     color: lightgreen;
 }
 #space_img {
-    height: 8%;
-    width: 8%;
-    margin: 30px 165px 30px 0px;
+    height: 5%;
+    width: 5%;
+    margin: 30px 230px 30px 0px;
 }
