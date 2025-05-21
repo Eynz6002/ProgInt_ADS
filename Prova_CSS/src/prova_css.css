@@ -26,9 +26,6 @@ main {
     display: flex;
     padding: 5px;
 }
-#big_img {
-
-}
 .cards {
     margin-top: 10px;
     justify-content: space-between;
@@ -44,6 +41,9 @@ main {
     height: 250px;
     background-color: aliceblue;
     padding: 5px;
+}
+p {
+    font-size: 10px;
 }
 footer {
     background-color: white;
