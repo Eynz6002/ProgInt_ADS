@@ -32,6 +32,7 @@ main {
     margin: 15px 0px 15px 0px;
     display: flex;
     justify-content: space-between;
+    gap: 55px;
 }
 .card {
     justify-content: center;
