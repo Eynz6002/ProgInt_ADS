@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/atv_10/fundo_matrix.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+}
+header {
+    background-image: url(..);
+}
+main {
+    background-color: black;
+    color: lightgreen;
+    width: 60%;
+}
+h2 {
+    padding: 15px;
+}
+#img-card {
+    width: 60px;
+    padding: 15px;
+}
+#card {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+#text-card {
+    font-size: 18px;
+}
+#text-end {
+    text-align: center;
+    font-size: 22px;
+}
