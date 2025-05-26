@@ -1,36 +1,36 @@
 body {
-    background-image: url(../img/atv_9/pngegg.png);
-    background-size: cover;
+    background-image: url(../img/atv_9/fundo_matrix.jpg);
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    font-family: Arial;
 }
-header{
-    text-align: center;
-    padding: 100px;
+header {
+    background-image: url(..);
 }
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    background-color: black;
+    color: lightgreen;
+    width: 60%;
 }
-form{
-    padding: 10px;
-    border: none;
-}
-label {
-    color: #333;
-}
-input[type="email"], input[type="password"] {
-    border: none;
-    border-bottom: 1px solid lightgray;
-    font-size: 1em;
-    text-align: left;
+h2 {
     padding: 15px;
-    font-size: 15px;
-    font-weight: 100;
-    margin-bottom: 30px;
+}
+#img-card {
+    width: 60px;
+    padding: 15px;
+}
+#card {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+#text-card {
+    font-size: 18px;
+}
+#text-end {
+    text-align: center;
+    font-size: 22px;
 }
