@@ -1,0 +1,42 @@
+body {
+    background-color: lightgray;
+    font-family: Arial;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    background-color: rgb(76, 148, 76);
+    display: flex;
+    padding: 15px;
+    width: 100%;
+}
+main {
+    margin: 10% 15% 0% 15%;
+    width: 70%;
+    background-color: rgb(236, 236, 236);
+    color: green;
+    padding: 15px;
+    border-radius: 10px;
+}
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+input {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input-half {
+    width: 50%;
+    padding: 15px;
+}
+.input-complete {
+    width: 100%;
+    padding: 15px;
+}
