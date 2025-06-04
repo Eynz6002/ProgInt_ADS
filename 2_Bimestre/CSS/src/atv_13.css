@@ -1,0 +1,30 @@
+body {
+    background-color: #e53935;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.background-morango {
+    position: absolute;
+    z-index: 1;
+    width: 100vh;
+}
+.text-morango {
+    position: absolute;
+    z-index: 3;
+    font-family: arial;
+    font-size: 12vh;
+    font-weight: bold;
+    color: white;
+}
+.lata-morango {
+    width: 35%;
+    position: absolute;
+    z-index: 4;
+}
