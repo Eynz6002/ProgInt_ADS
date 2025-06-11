@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 16</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 flex flex-col">
+    <header class="bg-purple-950 text-white text-[25px] font-bold text-center flex justify-center p-5">
+        <nav>Formulário de Cadastro</nav>
+    </header>
+    <div class="mt-5 mb-5 text-center text-purple-600 font-bold">Entre em Contato</div>
+    <main class="mb-15 m-auto w-max-full">
+        <div class="bg-white rounded-[0.5vw]">
+            <form class="grid grid-cols-2 grid-rows-3 gap-5 p-5">
+                <div class="flex flex-col col-span-1">
+                    <label>Nome</label>
+                    <input type="text" placeholder="Digite seu nome...">
+                </div>
+                <div class="flex flex-col col-span-1">
+                    <label>Email</label>
+                    <input type="email" placeholder="Digite seu email...">
+                </div>
+                <div class="flex flex-col col-span-2">
+                    <label>Mensagem</label>
+                    <textarea placeholder="Digite sua mensagem..."></textarea>
+                </div>
+                <div class="col-span-2">
+                    <button>Enviar Mensagem</button>
+                </div>
+            </form>
+        </div>
+        <div class="bg-white rounded-[0.5vw] mt-15 grid grid-rows-2 grid-cols-3 gap-5 p-5">
+            <div class="text-center col-span-3">Nossos Serviços</div>
+            <div class="col-span-1">
+                Frontend
+            </div>
+            <div class="col-span-1">
+                Backend
+            </div>
+            <div class="col-span-1">
+                Mobile
+            </div>
+        </div>
+    </main>
+    <footer class="text-center p-4 text-[12px] text-white bg-blue-400">&copy; 2025 - Formulários com Tailwind CSS</footer>
+</body>
+</html>
