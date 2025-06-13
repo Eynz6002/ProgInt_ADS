@@ -6,44 +6,45 @@
     <title>Atividade 16</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-gray-50 flex flex-col">
-    <header class="bg-purple-950 text-white text-[25px] font-bold text-center flex justify-center p-5">
+<body class="bg-gray-100 flex flex-col">
+    <header class="bg-indigo-800 text-white text-[25px] font-bold text-center flex justify-center p-5">
         <nav>Formulário de Cadastro</nav>
     </header>
-    <div class="mt-5 mb-5 text-center text-purple-600 font-bold">Entre em Contato</div>
-    <main class="mb-15 m-auto w-max-full">
-        <div class="bg-white rounded-[0.5vw]">
-            <form class="grid grid-cols-2 grid-rows-3 gap-5 p-5">
-                <div class="flex flex-col col-span-1">
-                    <label>Nome</label>
-                    <input type="text" placeholder="Digite seu nome...">
-                </div>
-                <div class="flex flex-col col-span-1">
-                    <label>Email</label>
-                    <input type="email" placeholder="Digite seu email...">
-                </div>
-                <div class="flex flex-col col-span-2">
-                    <label>Mensagem</label>
-                    <textarea placeholder="Digite sua mensagem..."></textarea>
-                </div>
-                <div class="col-span-2">
-                    <button>Enviar Mensagem</button>
-                </div>
-            </form>
+    <div class="mt-5 mb-5 text-center text-indigo-800 font-bold">Entre em Contato</div>
+    <div class="bg-white rounded-[0.5vw] shadow-md w-150 m-auto">
+        <form class="grid grid-cols-2 grid-rows-3 gap-5 p-5">
+            <div class="flex flex-col col-span-1">
+                <label>Nome</label>
+                <input type="text" placeholder="Digite seu nome...">
+            </div>
+            <div class="flex flex-col col-span-1">
+                <label>Email</label>
+                <input type="email" placeholder="Digite seu email...">
+            </div>
+            <div class="flex flex-col col-span-2">
+                <label>Mensagem</label>
+                <textarea rows="2" placeholder="Digite sua mensagem..."></textarea>
+            </div>
+            <div class="col-span-2 m-auto">
+                <button class="bg-indigo-800 text-white rounded-[0.5vw] p-3">Enviar Mensagem</button>
+            </div>
+        </form>
+    </div>
+    <div class="text-center text-indigo-800 font-bold col-span-3 mt-15 mb-5">Nossos Serviços</div>
+    <div class="grid grid-cols-3 gap-5 p-5 m-auto">
+        <div class="bg-white rounded-[0.5vw] col-span-1 p-3">
+            <div class="text-indigo-500">Frontend</div>
+            <div class="text-[12px]">Criamos interface modernas com HTML, <br> CSS, JS, Tailwind e React.</div>
         </div>
-        <div class="bg-white rounded-[0.5vw] mt-15 grid grid-rows-2 grid-cols-3 gap-5 p-5">
-            <div class="text-center col-span-3">Nossos Serviços</div>
-            <div class="col-span-1">
-                Frontend
-            </div>
-            <div class="col-span-1">
-                Backend
-            </div>
-            <div class="col-span-1">
-                Mobile
-            </div>
+        <div class="bg-white rounded-[0.5vw] col-span-1 p-3">
+            <div class="text-indigo-500">Backend</div>
+            <div class="text-[12px]">APIs escaláveis com Node.js, Django e <br>banco de dados eficientes.</div>
         </div>
-    </main>
-    <footer class="text-center p-4 text-[12px] text-white bg-blue-400">&copy; 2025 - Formulários com Tailwind CSS</footer>
+        <div class="bg-white rounded-[0.5vw] col-span-1 p-3">
+            <div class="text-indigo-500">Mobile</div>
+            <div class="text-[12px]">Desenvolvimento mobile com Flutter, React <br>Native e PWA.</div>
+        </div>
+    </div>
+    <footer class="mt-5 text-center p-4 text-[12px] text-white bg-blue-400">&copy; 2025 - Formulários com Tailwind CSS</footer>
 </body>
 </html>

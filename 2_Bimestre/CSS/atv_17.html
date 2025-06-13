@@ -3,10 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade 16</title>
+    <title>Atividade 17</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        /* Define a animação de rotação em 2D */
+        @keyframes rotateCar2D {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(-30deg);
+            }
+        }
+
+        .animar-virar-30 {
+            animation: rotateCar2D 4s infinite;
+            display: block;
+            margin: 150px auto auto 0px;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="text-white bg-purple-700 flex flex-col ml-40 mr-40">
+    <header class="bg-purple-900 flex items-center justify-between">
+        <img class="w-45" src="img/atv_17/logo.jpg">
+        <ul class="flex flex-rows mr-25 space-x-30">
+            <li>Home</li>
+            <li>Carros</li>
+            <li>Fale Conosco</li>
+        </ul>
+    </header>
+    <main class="p-10">
+        <p>Ferrari</p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Nulla repellat, quisquam sunt facilis iusto doloremque 
+            voluptatum sequi vero aliquam similique deserunt, ipsum 
+            saepe alias amet accusamus error reiciendis provident facere?
+        </p>
+        <img class="animar-virar-30 mt-40 w-150" src="img/atv_17/carro.jpg">
+    </main>
 </body>
 </html>
