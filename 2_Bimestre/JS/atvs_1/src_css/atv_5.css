@@ -1,0 +1,15 @@
+body { /* Corrected: element selector */
+    margin: 3% 20% 0% 20%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Added for centering purposes */
+    flex-direction: column; /* To stack elements if more are added */
+}
+#texto-pagina { /* Corrected: ID selector */
+    background-color: gray;
+    text-align: center;
+    padding: 20px; /* Add some padding for better appearance */
+    color: white; /* Make text visible on gray background */
+}
