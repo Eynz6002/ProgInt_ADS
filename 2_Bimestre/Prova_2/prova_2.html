@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Viagem</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="mt-15 flex justify-center items-center bg-gradient-to-r from-indigo-500 from-20% via-sky-500 via-30% to-emerald-500 to-80%">
+    <div class="flex justify-center items-center flex-col w-xl">
+        <div class="font-bold text-white text-[30px] m-5 opacity-50">🚗 Calculadora de Viagem</div>
+        <div class="flex justify-center items-center flex-col bg-white rounded-lg m-5 w-120 p-5 gap-3 text-left">
+            <label class="size-full">Preço da gasolina (R$/L)</label>
+            <input id="preco" class="size-full rounded-lg border-1 border-gray-200" type="number">
+            <label class="size-full">Distância (Km)</label>
+            <input id="distancia" class="size-full rounded-lg border-1 border-gray-200" type="number">
+            <label class="size-full">Consumo (Km/L)</label>
+            <input id="consumo" class="size-full rounded-lg border-1 border-gray-200" type="number">
+            <button onclick="calcular()" class="bg-purple-500 p-3 rounded-lg">Calcular</button>
+        </div>
+        <div class="p-3 bg-white rounded-lg flex flex-col">
+            <label id="resultado-litros"></label>
+            <label id="resultado-custo"></label>
+        </div>
+    </div>
+    <script src="js/prova_2.js"></script>
+</body>
+</html>
